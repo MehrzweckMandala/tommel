@@ -56,8 +56,8 @@ cd tommel
 ### Compile and Run
 
 ```bash
-javac -d bin src/**/*.java
-java -cp bin de.mehrzweckmandala.tommel
+javac -d bin src\main\java\de\mehrzweckmandala\tommel\*.java
+java -cp bin de.mehrzweckmandala.tommel.Main
 ```
 
 ---
